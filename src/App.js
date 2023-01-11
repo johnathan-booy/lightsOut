@@ -7,7 +7,8 @@ import "./App.css";
 function App() {
 	return (
 		<div className="App">
-			<Board nrows={4} ncols={4} chanceLightStartsOn={0.99} />
+			<h1>Lights Out</h1>
+			<Board />
 		</div>
 	);
 }
